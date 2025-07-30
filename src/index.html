@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museum</title>
-    <link rel="icon" href="./images/favicon.svg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-    <link rel="stylesheet" href="./styles/style.scss">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="scripts/lib/swiper.js" defer></script>
-    <script src="scripts/script.js" defer></script>
+    <link rel="icon" href="images/favicon.svg">
+    <link rel="preload" href="fonts/IBMPlexSans.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href="fonts/Montserrat.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="styles/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/index.scss">
+    <script src="scripts/swiper-bundle.min.js" defer></script>
+    <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
     <header class="header">
@@ -39,7 +37,7 @@
 
           <div class="header__bottom">
             <h1 class="header__title">Художній музей</h1>
-            <a class="header__button tickets-button">
+            <a href="#" class="header__button tickets-button">
               <div class="tickets-button__text">Квитки</div>
               <div class="tickets-button__arrow icon icon--arrow-right"></div>
             </a>
@@ -244,7 +242,7 @@
             <form
               action="#"
               method="POST"
-              onsubmit="this.reset(); return false;"
+              onsubmit="alert('Form functionality demo'); this.reset(); return false;"
               class="subscription__form subscription-form"
             >
               <label for="subscription-form__input" class="subscription-form__label">
