@@ -35,12 +35,16 @@ To run this project locally:
 
 1. **Clone the repository:**
 
+> ***Note!** [Git](https://git-scm.com/downloads) is required.*
+
 ```bash
 git clone https://github.com/4xmplme/NAMU.git
-cd project-name
+cd NAMU
 ```
 
 2. **Install dependencies:**
+
+> ***Important‼** [Node.js v14.21.3 or higher](https://nodejs.org/en/download) is required.*
 
 ```bash
 npm install
