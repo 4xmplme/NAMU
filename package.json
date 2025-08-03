@@ -1,7 +1,7 @@
 {
   "name": "namu",
   "version": "1.0.0",
-  "description": "Museum landing page",
+  "description": "Museum Landing Page",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
